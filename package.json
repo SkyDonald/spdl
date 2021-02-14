@@ -1,6 +1,6 @@
 {
   "name": "spdl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Spotify track downloader module. Written in pure javascript.",
   "dependencies": {
     "chalk": "^4.1.0",
@@ -8,8 +8,9 @@
     "fs": "^0.0.1-security",
     "spdl-core": "^1.1.1"
   },
-  "preferGlobal": true,
   "bin": "./src/index.js",
+  "preferGlobal": true,
+  "main": "./src/index.js",
   "scripts": {
     "publish": "git add . && git commit -m 'Update' && git push origin master"
   },
@@ -30,7 +31,8 @@
     "spdl-core",
     "node-spdl",
     "spdl",
-    "song"
+    "song",
+    "cli"
   ],
   "author": "skydonald",
   "license": "MIT",

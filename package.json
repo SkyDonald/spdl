@@ -1,0 +1,44 @@
+{
+  "name": "spdl",
+  "version": "1.0.1",
+  "description": "Spotify track downloader module. Written in pure javascript.",
+  "dependencies": {
+    "commander": "^7.0.0",
+    "fs": "^0.0.1-security",
+    "spdl-core": "^1.1.0"
+  },
+  "preferGlobal": true,
+  "bin": "./src/index.js",
+  "scripts": {
+    "publish": "git add . && git commit -m 'Update' && git push origin master"
+  },
+  "keywords": [
+    "spotify",
+    "download",
+    "spotifydl",
+    "spotify-dl",
+    "api",
+    "dl",
+    "downloader",
+    "spotify-downloader",
+    "discord",
+    "discord-spotify",
+    "discord-music",
+    "music",
+    "spdl"
+  ],
+  "author": "skydonald",
+  "license": "MIT",
+  "types": "./typings/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SkyDonald/spdl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SkyDonald/spdl/issues"
+  },
+  "homepage": "https://github.com/SkyDonald/spdl#readme"
+}
